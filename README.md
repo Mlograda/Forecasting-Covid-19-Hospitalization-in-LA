@@ -1,16 +1,17 @@
 # Predicting Covid19 Hospitalization in Los Angeles
 
 
-<img width="1198" height="500" alt="banner" src="https://images.unsplash.com/photo-1623701197215-3fe8e52f618e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y292aWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+<img class="center" alt="banner" src="https://images.unsplash.com/photo-1623701197215-3fe8e52f618e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OHx8Y292aWR8ZW58MHx8MHx8&auto=format&fit=crop&w=500&q=60">
+<figcaption class="" data-selectable-paragraph="">Unsplash- Yoav Aziz</figcaption>
 
 ## Project Overview
-----
+
 As the world started grappling with the ramifications of COVID-19, healthcare systems across the globe started dealing with the new overwhelming burden of caring for the people infected with the disease. For instance, in the US governments, all levels – Federal, State, and local, had to make decisions so they can help the hospitals as they struggled to shoulder the crisis. 
 
 In this case study, I'm going to focus on the government of Los Angeles County (LA), California. This county is the most populated in the US, with approximately 10 million residents. I'm going to use historical data to predict the number of patients that will need hospitalization in the near future; specifically, I will create a model that can predict the number of hospitalizations in LA County <u>two weeks</u> from the present moment.
 
 ## Data Source
-----
+
 In this study, the target is the number of hospitalizations. To predict such attribute, I imagined what the independent attributes could be for predicting this specific dependent attribute.
 
 The following list shows four sources of data that can be useful for predicting hospitalizations: 
@@ -22,7 +23,7 @@ The following list shows four sources of data that can be useful for predicting 
 **Note:** the Datasets were downloaded for the analysis on 13-12-2022 
 
 ## File Description
----
+
 ~~~~~
 Predicting Covid19 Hospitalization
 
@@ -49,7 +50,7 @@ Predicting Covid19 Hospitalization
 
 
 ## Predictive analytics: approach
----
+
 ### Designing a dataset to support predictions
 
 I deisgned a dataset based on the following characteristics:
