@@ -75,7 +75,7 @@ I created a placeholder `day_df`. Then I wrote functions to use the data from th
 
 ### Feature Selection
 
-After filling up the placeholder, I run two feature selection techniques. **Linear Regression** and **Random Forest**. I chose **Linear Regression** because it captures the linear relationship (if any) between the attributes. I chose **Random Forest** to select features that may have non-linear relationships and coudl be useful in a more complex model. Details are provided in the notebook.
+After filling up the placeholder, I run two feature selection techniques. **Linear Regression** and **Random Forest**. I chose **Linear Regression** because it captures the linear relationship (if any) between the attributes and the target variable. I chose **Random Forest** to select features that may have non-linear relationships and coudl be useful in a more complex model. Details are provided in the notebook.
 
 ### Predictions
 In this section, I run 3 prediction models, namely **Linear regression**, **Decision Tree**, and **Multilayer Perceptron**. I used GridSearch to select the optimal parameters for the **Decision Tree**, and **Multilayer Perceptron** models.
